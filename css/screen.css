@@ -7,3 +7,34 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Site Styles */
+
+html {
+  font-size: 1em;
+  line-height: 1em;
+  height: 100%;
+}
+
+body {
+  margin-left: 1em;
+  margin-right: 1em;
+  min-height: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+label, input {
+  display: block;
+}
+
+/* modular */
+
+#email, #name, #areacode, #submit{
+  margin-bottom: 1em;
+  text-align: center;
+}
