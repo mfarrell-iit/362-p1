@@ -7,21 +7,41 @@
   <link rel="stylesheet" media="screen" href="css/screen.css" />
 </head>
 <body>
-  <h1>Daily Weather Mailer</h1>
+  <section>
+    <h1>Daily Weather Mailer</h1>
+    <figure>
+      <img id="wlogo" src="media/wlogo.png" alt="media/wlogo.jpg">
+    </figure>
+    <ul>
+      <li>&middot Never go out without knowing what the weather is like again!</li>
+      <li>&middot Get the weather for your are delivered right to your inbox!</li>
+      <li>&middot A weather email will be sent to you daily at 5:00am so you can plan for your day!</li>
+    </ul>
+  </section>
   <h3>Please enter your information below:</h3>
   <form method="get" action="null">
-    <label for="email">E-mail</label>
-    <input type="text" name="email" id="email" placeholder="user@domain.com" />
-    <p />
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" placeholder="John Smith" />
-    <p />
-    <label for="areacode">Area Code</label>
-    <input type="text" name="areacode" id="areacode" placeholder="12345" />
-    <p />
-    <input type="submit" name="submit" id="submit" value="Submit" />
+    <ul>
+    <li>
+      <label for="email">E-mail</label>
+      <input type="text" name="email" id="email" placeholder="user@domain.com" />
+    </li>  
+    <li>  
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name" placeholder="John Smith" />
+    </li>  
+    <li>  
+      <label for="zipcode">ZIP Code</label>
+      <input type="text" name="zipcode" id="zipcode" placeholder="12345" />
+    </li>  
+    <li>  
+      <input type="submit" name="submit" id="submit" value="Submit" />
+    </li>
+    </ul>
   </form>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="js/site.js"></script>
+  <footer>
+    Designed by Michael Farrell &copy 2017
+  </footer>
 </body>
 </html>
