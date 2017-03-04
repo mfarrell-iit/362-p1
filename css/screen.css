@@ -33,6 +33,10 @@ figure {
   text-align: center;
 }
 
+img {
+  max-width: 75%;
+}
+
 ul {
   padding: 1em;
   text-align: center;
@@ -53,6 +57,35 @@ h3 {
 footer {
   text-align: center;
   padding; 2em;
+}
+
+/* ---Media States---*/
+
+/* phone */
+@media screen and (min-width: 23.438em) {
+  html {
+    font-size: 1em;
+  }
+  
+  ul {
+    padding: .5em;
+  }
+  
+  footer {
+    padding: .5em;
+  }
+  
+}
+
+/* tablet */
+@media screen and (min-width: 48em) {
+  html {
+    font-size: 2em;
+  }
+  
+  footer {
+    padding: 1em;
+  }
 }
 
 /* ---Input Styling--- */
